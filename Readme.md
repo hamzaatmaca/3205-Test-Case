@@ -1,7 +1,7 @@
 --- For Backend
 
 ```
-npm install
+npm install --legacy-peer-deps
 npm start
 
 ```
@@ -9,7 +9,7 @@ npm start
 --- For Frontend
 
 ```
-npm install
+npm install --legacy-peer-deps
 npm start
 
 ```
