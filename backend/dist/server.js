@@ -33,5 +33,5 @@ app.post("/search", (req, res) => {
     }, 5000);
 });
 app.listen(5000, () => {
-    console.log("Server çalışıyor port 5000");
+    console.log("Server is running on port 5000");
 });

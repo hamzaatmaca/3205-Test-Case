@@ -21,7 +21,7 @@ const App: React.FC = () => {
     }
 
     axios
-      .post("http://localhost:5000/search", {
+      .post<User[]>("http://localhost:5000/search", {
         email,
         number: number.replace(/-/g, ""),
       })
